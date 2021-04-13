@@ -54,8 +54,9 @@ Do the following:
    HINT: look up the Number method
 */
 
-
-
+var stringType = "1999";
+stringType = Number(stringType);
+console.log(stringType);
 
 /*
 Task 1d - Multiply
@@ -66,10 +67,12 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
+function multiply(a,b){
+    return a*b;
   }
 
+  multiply(2,3);
+  console.log(multiply(2,3));
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
