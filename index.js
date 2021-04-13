@@ -18,7 +18,11 @@ Do the following:
    HINT: no function required
 */
 
+var votingAge = 18;
 
+if (votingAge >= 18){
+  console.log("true");
+}
 
 /*
 Task 1b - Values
@@ -31,9 +35,13 @@ Do the following:
    HINT: no function required
 */
 
+var varTestOne = "First";
+var varTestTwo = "Second";
 
-
-
+if (varTestTwo === "Second"){
+  varTestOne = "Third";
+  console.log(varTestOne);
+}
 
 /*
 Task 1c - Convert Strings to Numbers
