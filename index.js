@@ -230,11 +230,11 @@ Using the annoyingSong function below do the following:
 */
 
 function annoyingSong(number) {
-          for (number = 0; number < 99; number--) {
-            return `${number} bottles of soda on the wall, ${number} bottles of soda, take one down pass it around ${number - 1} bottles of soda on the wall`;
+          for (number = 5; number > 0; number--) {
+            return (`${number} bottles of soda on the wall, ${number} bottles of soda, take one down pass it around ${number - 1} bottles of soda on the wall`);
   }
-}
-  console.log(annoyingSong(99));
+};
+  console.log(annoyingSong(5));
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
